@@ -10,7 +10,7 @@ def even_numbers(num):
 
 def game_even():
     name = welcome_user()
-    print('Answer "yes" if the number is evan, otherwise answer "no".')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
     while count < 3:
         number = randint(1, 101)
