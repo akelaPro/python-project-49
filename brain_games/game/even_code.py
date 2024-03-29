@@ -15,7 +15,7 @@ def game_even():
     while count < 3:
         number = randint(1, 101)
         print(f'Question: {number}')
-        n = input('yor answer: ')
+        n = input('Yor answer: ')
 
         if even_numbers(number) and n.lower() == 'yes':
             print('Correct!')
