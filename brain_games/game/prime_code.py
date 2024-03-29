@@ -23,7 +23,7 @@ def prime_game():
     while count < 3:
         number = randint(2, 101)
         print(f'Question: {number}')
-        n = input('yor answer: ')
+        n = input('Yor answer: ')
 
         if  prime_num(number) == 'yes' and n.lower() == 'yes':
             print('Correct!')
@@ -39,7 +39,7 @@ def prime_game():
             print(f"{n} is wrong answer ;(. Correct answer was 'yes'.")
             print(f"let's try again,{name}")
     if count == 3: 
-        print (f'congratulations, {name}')
+        print (f'Congratulations, {name}')
 
 if __name__ == '__main__':
     prime_game()
