@@ -31,7 +31,7 @@ def game_even():
             print(f"{n} is wrong answer ;(. Correct answer was 'yes'.")
             print(f"let's try again,{name}")
     if count == 3:
-        print(f'congratulations, {name}')
+        print(f'Congratulations, {name}')
         
 
 if __name__ == '__main__':
