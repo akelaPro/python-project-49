@@ -40,3 +40,4 @@ def progress_game():
             print(f'Congratulations, {name}')
 
 if __name__ == '__main__':
+    progress_game()
