@@ -28,7 +28,7 @@ def gcd_game():
         num1 = randint(1, 101)
         num2 = randint(1, 101)
         print(f'Question: {num1} {num2}')
-        n = int(input('yor answer: '))
+        n = int(input('Yor answer: '))
         if gcd_code(num1,num2) == n:
             print('Correct!')
             count += 1
@@ -36,7 +36,7 @@ def gcd_game():
             print(f"{n} is wrong answer ;(. Correct answer was {gcd_code(num1,num2)}.")
             print(f"let's try again,{name}")
     if count == 3: 
-        print(f'congratulations, {name}')
+        print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':

@@ -39,7 +39,7 @@ def progress_game():
             print(f"Let's try again, {name}")
             count = 0
         if count == 3:
-            print(f'Congratulations, {name}')
+            print(f'Congratulations, {name}!')
 
 if __name__ == '__main__':
     progress_game()
