@@ -3,6 +3,7 @@ from random import randint
 
 from brain_games.cli import welcome_user
 
+
 def progression_generator(first, end, length):
     generator = []
     for i in range(length):
