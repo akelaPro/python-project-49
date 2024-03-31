@@ -34,7 +34,7 @@ def game_even():
             break
     if count == 3:
         print(f'Congratulations, {name}!')
-        
+
 
 if __name__ == '__main__':
     game_even()

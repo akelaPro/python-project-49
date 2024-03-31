@@ -22,16 +22,17 @@ def calc():
         num1 = randint(1, 101)
         num2 = randint(1, 101)
         operator = choice(['+', '-', '*'])
-        num1 = randint(1,101)
-        num2 = randint(1,101)
-        operator = choice(['+','-','*'])
+        num1 = randint(1, 101)
+        num2 = randint(1, 101)
+        operator = choice(['+', '-', '*'])
         print(f'Question: {num1} {operator} {num2}')
         n = int(input('yor answer: '))
+        item = calc_game(num1, num2, operator)
         if calc_game(num1, num2, operator) == n:
             print('Correct!')
             count += 1
         else:
-            print(f"{n} is wrong answer ;(. Correct answer was {calc_game(num1, num2, operator)}.")
+            print(f"{n} is wrong answer ;(. Correct answer was {item}.")
             print(f"Let's try again, {name}!")
             break
         if count == 3:

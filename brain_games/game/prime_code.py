@@ -15,7 +15,7 @@ def prime_num(num):
     else:
         return('yes')
 
-        
+  
 def prime_game():
     name = welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
