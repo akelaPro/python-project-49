@@ -25,7 +25,8 @@ def game_even():
             count += 1
         elif not even_numbers(number) and n.lower() == 'yes':
             print(f"{n} is wrong answer ;(. Correct answer was 'no'.")
-            print(f"let's try again,{name}")
+            print(f"let's try again,{name}!")
+            break
         else:
             even_numbers(number) and n.lower() == 'no'
             print(f"{n} is wrong answer ;(. Correct answer was 'yes'.")
