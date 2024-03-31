@@ -36,7 +36,7 @@ def progress_game():
             count += 1
         else:
             print(f"{user_input} is wrong answer ;(. Correct answer was {correct_input}.")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             count = 0
             break
         if count == 3:
