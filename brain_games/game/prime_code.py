@@ -18,7 +18,7 @@ def prime_num(num):
         
 def prime_game():
     name = welcome_user()
-    print('Answer "yes" if the number is prime, otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count = 0
     while count < 3:
         number = randint(2, 101)
