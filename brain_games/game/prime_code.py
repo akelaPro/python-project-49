@@ -11,11 +11,11 @@ def prime_num(num):
             count += 1
             break
     if count > 0:
-        return('no')
+        return 'no'
     else:
-        return('yes')
+        return 'yes'
 
-  
+
 def prime_game():
     name = welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
@@ -25,7 +25,7 @@ def prime_game():
         print(f'Question: {number}')
         n = input('Yor answer: ')
 
-        if  prime_num(number) == 'yes' and n.lower() == 'yes':
+        if prime_num(number) == 'yes' and n.lower() == 'yes':
             print('Correct!')
             count += 1
         elif prime_num(number) == 'no' and n.lower() == 'no':
@@ -40,8 +40,9 @@ def prime_game():
             print(f"{n} is wrong answer ;(. Correct answer was 'yes'.")
             print(f"Let's try again, {name}!")
             break
-    if count == 3: 
-        print (f'Congratulations, {name}!')
+    if count == 3:
+        print(f'Congratulations, {name}!')
+
 
 if __name__ == '__main__':
     prime_game()

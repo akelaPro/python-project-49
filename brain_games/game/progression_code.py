@@ -30,9 +30,8 @@ def progress_game():
         length = randint(5, 11)
         random_index = randint(0, length - 1)
         collection = progression_generator(start, step, length)
-        collection_with_dots = index_progression(collection)
-        correct_input = random_index
-        question = ' '.join(str(num) for num in collection_with_dots)
+        with_dots, correct_input = index_progression(collection, random_index)
+        question = ' '.join(str(num) for num in with_dots)
         print(f'Question: {question}')
         user_input = input('Your answer: ')
         if user_input == str(correct_input):
