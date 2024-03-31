@@ -33,12 +33,12 @@ def prime_game():
             count += 1
         elif prime_num(number) == 'no' and n.lower() == 'yes':
             print(f"{n} is wrong answer ;(. Correct answer was 'no'.")
-            print(f"let's try again, {name}!")
+            print(f"Let's try again, {name}!")
             break
         else:
             prime_num(number) == 'yes' and n.lower() == 'no'
             print(f"{n} is wrong answer ;(. Correct answer was 'yes'.")
-            print(f"let's try again, {name}!")
+            print(f"Let's try again, {name}!")
             break
     if count == 3: 
         print (f'Congratulations, {name}!')
