@@ -38,6 +38,7 @@ def prime_game():
             prime_num(number) == 'yes' and n.lower() == 'no'
             print(f"{n} is wrong answer ;(. Correct answer was 'yes'.")
             print(f"let's try again,{name}")
+            return
     if count == 3: 
         print (f'Congratulations, {name}!')
 

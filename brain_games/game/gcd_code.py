@@ -35,6 +35,7 @@ def gcd_game():
         else:
             print(f"{n} is wrong answer ;(. Correct answer was {gcd_code(num1,num2)}.")
             print(f"let's try again,{name}")
+            return
     if count == 3: 
         print(f'Congratulations, {name}!')
 

@@ -33,6 +33,7 @@ def calc():
         else:
             print(f"{n} is wrong answer ;(. Correct answer was {calc_game(num1, num2, operator)}.")
             print(f"let's try again,{name}")
+            return
         if count == 3:
             print(f'Congratulation, {name}!')
 
