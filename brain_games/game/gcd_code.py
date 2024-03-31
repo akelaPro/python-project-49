@@ -22,7 +22,7 @@ def gcd_code(num1, num2):
 
 def gcd_game():
     name = welcome_user()
-    print("Find the greatest common divisior of given numbers.")
+    print("Find the greatest common divisor of given numbers.")
     count = 0
     while count <3:
         num1 = randint(1, 101)
