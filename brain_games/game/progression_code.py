@@ -3,7 +3,6 @@ from random import randint
 
 from brain_games.cli import welcome_user
 
-
 def progression_generator(first, end, length):
     generator = []
     for i in range(length):
@@ -38,7 +37,8 @@ def progress_game():
             print('Correct!')
             count += 1
         else:
-            print(f"{user_input} is wrong answer ;(. Correct answer was {correct_input}.")
+            print(f"'{user_input}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_input}'.")
             print(f"Let's try again, {name}!")
             count = 0
             break
