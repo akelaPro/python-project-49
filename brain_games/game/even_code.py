@@ -30,7 +30,7 @@ def game_even():
             even_numbers(number) and n.lower() == 'no'
             print(f"{n} is wrong answer ;(. Correct answer was 'yes'.")
             print(f"let's try again,{name}")
-            return
+            break
     if count == 3:
         print(f'Congratulations, {name}!')
         
