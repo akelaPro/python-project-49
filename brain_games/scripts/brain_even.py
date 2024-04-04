@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.game.even_code import game_even
+from brain_games.engine import run_game
+from brain_games.games.even_code import generate_round
+from brain_games.games.even_code import DESCRIPTION
 
 
 def main():
-    game_even()
+    run_game(generate_round, DESCRIPTION)
 
 
 if __name__ == '__main__':
