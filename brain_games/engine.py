@@ -7,9 +7,9 @@ from brain_games.cli import welcome_user
 ROUND_COUNT = 3
 
 
-def run_game(game_module, DESCRIPTION ):
+def run_game(game_module):
     user_name = welcome_user()
-    print(DESCRIPTION)
+    print(game_module.DESCRIPTION)
     while ROUND_COUNT != 0:
         question, correct_answer = game_module.generate_round()
         print('Question:', question)
