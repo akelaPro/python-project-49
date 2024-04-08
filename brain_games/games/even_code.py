@@ -11,5 +11,3 @@ def generate_round():
     return str(question), correct_answer
     
 
-if __name__ == '__main__':
-    generate_round()
