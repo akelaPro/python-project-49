@@ -1,6 +1,8 @@
 from random import randint
 
+
 DESCRIPTION = 'What number is missing in the progression?'
+
 
 def progression_generator(first, step, length):
     generator = []
@@ -9,11 +11,13 @@ def progression_generator(first, step, length):
         first += step
     return generator
 
+
 def index_progression(collection, index):
     collection_copy = collection.copy()
     index_prog = collection_copy[index]
     collection_copy[index] = '..'
     return collection_copy, index_prog
+
 
 def generate_round():
     start = randint(1, 11)
@@ -21,9 +25,6 @@ def generate_round():
     length = randint(5, 10)
     random_index = randint(0, length - 1)
     collection = progression_generator(start, step, length)
-    collection_with_dots, correct_answer = index_progression(collection, random_index)
-    question = ' '.join(str(num) for num in collection_with_dots)
+    with_dots, correct_answer = index_progression(collection, random_index)
+    question = ' '.join(str(num) for num in with_dots)
     return question, correct_answer
-
-
-    

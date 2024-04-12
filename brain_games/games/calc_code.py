@@ -20,4 +20,3 @@ def generate_round():
     question = f"{a} {operation} {b}"
     correct_answer = str(calc(a, b, operation))
     return question, correct_answer
-

@@ -5,7 +5,6 @@ from brain_games.engine import run_game
 from brain_games.games import even_code
 
 
-
 def main():
     run_game(even_code)
 
