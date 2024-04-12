@@ -30,4 +30,4 @@ make package-install
 Для сборки проекта потребуется "poetry-core"
 
 Примеры игры
-<script src="https://asciinema.org/a/s47L71cP6wDCqxpFP7yM4JOTO.js" id="asciicast-653803" async="true"></script>
+<a href="https://asciinema.org/a/s47L71cP6wDCqxpFP7yM4JOTO" target="_blank"><img src="https://asciinema.org/a/s47L71cP6wDCqxpFP7yM4JOTO.svg" /></a>
