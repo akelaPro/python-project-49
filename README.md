@@ -20,14 +20,22 @@ brain-prime
 
 brain-progression
 В игре необходимо ответить, какое число пропущено в предложенной игрой арифметической прогрессии
+
 Установка
+
 Для установки необходимо:
+
 Скопировать проект на свой ПК Перейти в дирректорию с проектом и выполнить команды:
 
 make build
 make package-install
+
+
 Минимальные требования
 Для сборки проекта потребуется "poetry-core"
 
-Примеры игры
+Примеры 
+
+brain-even
+
 <a href="https://asciinema.org/a/s47L71cP6wDCqxpFP7yM4JOTO" target="_blank"><img src="https://asciinema.org/a/s47L71cP6wDCqxpFP7yM4JOTO.svg" /></a>
