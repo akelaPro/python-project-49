@@ -39,3 +39,19 @@ make package-install
 brain-even
 
 <a href="https://asciinema.org/a/s47L71cP6wDCqxpFP7yM4JOTO" target="_blank"><img src="https://asciinema.org/a/s47L71cP6wDCqxpFP7yM4JOTO.svg" /></a>
+
+brain-calc
+
+<a href="https://asciinema.org/a/y3ITW98LA40eMUD5Hpl3JXhVb" target="_blank"><img src="https://asciinema.org/a/y3ITW98LA40eMUD5Hpl3JXhVb.svg" /></a>
+
+brain-gcd
+
+<a href="https://asciinema.org/a/XQb1ktv0wr4VgW5WhcTlK82Ej" target="_blank"><img src="https://asciinema.org/a/XQb1ktv0wr4VgW5WhcTlK82Ej.svg" /></a>
+
+brain-progression
+
+<a href="https://asciinema.org/a/D0OcGeZBscrdWaoV7WSxVmdZv" target="_blank"><img src="https://asciinema.org/a/D0OcGeZBscrdWaoV7WSxVmdZv.svg" /></a>
+
+brain-even
+
+<a href="https://asciinema.org/a/1fMVVte2ai5u3LD3nSueh4ydR" target="_blank"><img src="https://asciinema.org/a/1fMVVte2ai5u3LD3nSueh4ydR.svg" /></a>
