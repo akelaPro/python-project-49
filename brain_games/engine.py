@@ -14,7 +14,7 @@ def run_game(game):
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
 
-        if user_answer == correct_answer:
+        if str(user_answer) == str(correct_answer):
             print('Correct!')
             count += 1
         else:
